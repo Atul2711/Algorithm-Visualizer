@@ -12,6 +12,7 @@ var cont = document.getElementById("array_container");
 cont.style = "flex-direction:row";
 
 
+
 //Generate new arrays
 
 input_generate.addEventListener("click", generate_array);

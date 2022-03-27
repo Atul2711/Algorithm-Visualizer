@@ -146,4 +146,11 @@ nav .header_right .algos .butt_locked {
     cursor: pointer;
   }
   
-  
+  .footer{
+    text-align: center;
+    color:var(--SecoColor);
+    border: 2px solid  var(--SecoColor);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
