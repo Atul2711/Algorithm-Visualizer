@@ -32,6 +32,7 @@ function generate_array() {
 function updated_as() {
     //default
     array_size = input_as.value;
+    document.getElementById("array-info").innerHTML="An array with "+array_size+ " elements";
     generate_array();
 }
 
