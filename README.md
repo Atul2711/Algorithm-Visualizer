@@ -1,5 +1,5 @@
 # Algorithm-Visualizer
-Simple algorithm visualizer built using javascript.
+Simple algorithm visualizer built using html, javascript.
 ## Give it a whirl :https://atul2711.github.io/Algorithm-Visualizer/
 
 ## Overview:
