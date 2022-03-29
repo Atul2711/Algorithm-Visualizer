@@ -77,6 +77,14 @@ function runalgo() {
     }
 }
 
+function success(){
+    swal({
+        title: "Success !",
+        text: "Array sorted successfully",
+        icon: "success",
+        button: "Try other method",
+      });
+}
 
 
 

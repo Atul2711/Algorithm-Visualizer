@@ -23,7 +23,7 @@ function vis_speed(){
 var delay_time=10000/(Math.floor(array_size/10)*speed);        //Decrease numerator to increase speed.
 var c_delay=0;
 
-function div_update(cont,height,color){
+function bar_update(cont,height,color){
     window.setTimeout(function(){
         cont.style=" margin:0% " + margin_size + "%;display:inline-block; width:" + (100/array_size-(2*margin_size)) + "%; height:" + height + "%; background-color:" + color + ";";
     },c_delay+=delay_time);
@@ -39,6 +39,10 @@ function enable_buttons(){
         input_as.disabled=false;
         input_aspeed.disabled=false;
         input_generate.disabled=false;
+        success();
         }
     },c_delay+=delay_time);
+
+    
+    
 }
